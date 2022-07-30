@@ -1,4 +1,4 @@
-const listaLivros = require('./arrays-2');
+const listaLivros = require('../aula03/arrays');
 
 function encontraMenores(pivo, array){
     let menores = 0;
@@ -37,5 +37,7 @@ function divideNoPivo(array){
     return array;
 }
 
-console.log(divideNoPivo(listaLivros))
+//console.log(divideNoPivo(listaLivros))
 //console.log(encontraMenores(listaLivros[2], listaLivros))
+
+module.exports = trocaLugar;
